@@ -1878,12 +1878,12 @@ MonoBehaviour:
       isGlobal: 1
     - name: Rest
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: Rest
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: Non
       linkStyle: 0
       linkConstraint: 0
