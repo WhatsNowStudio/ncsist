@@ -1,0 +1,561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: MapFlagMove
+  m_EditorClassIdentifier: 
+  category: General
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 11400000}
+    name: MapFlagControl
+    startState: "\u524D\u7F6E\u4F5C\u696D"
+    states:
+    - name: "\u5B9A\u4F4D"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 57.4375
+        y: 283.0078
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: N
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u89F8\u78B0"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.MoveTowards
+        - HutongGames.PlayMaker.Actions.IsActive
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: fa0e54024ded5503
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Gobj/MouseAnchors
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Obj/PressTest
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1e+9
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        - N
+        byteData: 01
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000130000001c000000110000000f0000000f000000170000001300000011000000170000001700000001000000
+        paramName:
+        - gameObject
+        - targetObject
+        - targetPosition
+        - ignoreVertical
+        - maxSpeed
+        - finishDistance
+        - finishEvent
+        - gameObject
+        - isActive
+        - isActiveEvent
+        - isNotActiveEvent
+        - everyFrame
+        paramDataPos: 000000000000000000000000000000000000000001000000000000000100000001000000010000000200000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+    - name: "\u524D\u7F6E\u4F5C\u696D"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 52.296875
+        y: 103.96094
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u89F8\u78B0"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetChild
+        - HutongGames.PlayMaker.Actions.GetOwner
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 184b57045c004505
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/PressTest
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Obj/Owner
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 1
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: PressTest
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000001300000013000000
+        paramName:
+        - gameObject
+        - childName
+        - withTag
+        - storeResult
+        - storeGameObject
+        paramDataPos: 0000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
+    - name: "\u89F8\u78B0"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 52.679688
+        y: 171.44531
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Y
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u8305\u9EDE\u62C9\u904E\u4F86"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IsActive
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 4ded5503
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/PressTest
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Y
+        - 
+        byteData: 01
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1300000011000000170000001700000001000000
+        paramName:
+        - gameObject
+        - isActive
+        - isActiveEvent
+        - isNotActiveEvent
+        - everyFrame
+        paramDataPos: 0000000000000000000000000100000000000000
+        paramByteDataSize: 0000000000000000000000000000000001000000
+    - name: "\u8305\u9EDE\u62C9\u904E\u4F86"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 58
+        y: 229
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5B9A\u4F4D"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.MoveTowards
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: fa0e540288611604
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/Owner
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Gobj/MouseAnchors
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1e+9
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - Go
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000130000001c000000110000000f0000000f0000001700000017000000
+        paramName:
+        - gameObject
+        - targetObject
+        - targetPosition
+        - ignoreVertical
+        - maxSpeed
+        - finishDistance
+        - finishEvent
+        - sendEvent
+        paramDataPos: 0000000000000000000000000000000000000000010000000000000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: Click
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Go
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Inside1
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: N
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Process
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Process2
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Process3
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Process3OK
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Process4
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Process4OK
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Rest
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: SelectOn
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Y
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Obj/PressTest
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/Owner
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 3
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
