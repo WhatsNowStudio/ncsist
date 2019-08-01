@@ -24,8 +24,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 263.5
-        y: 352
+        x: 55.5
+        y: 112
         width: 100
         height: 32
       isBreakpoint: 0
@@ -84,8 +84,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 436.5
-        y: 422
+        x: 215.5
+        y: 160
         width: 100
         height: 32
       isBreakpoint: 0
@@ -189,8 +189,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 274.5
-        y: 529
+        x: 66.5
+        y: 289
         width: 100
         height: 32
       isBreakpoint: 0
@@ -276,8 +276,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 419
-        y: 530
+        x: 211
+        y: 290
         width: 100
         height: 32
       isBreakpoint: 0
@@ -363,22 +363,14 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 262.5
-        y: 414
+        x: 54.5
+        y: 174
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u547C\u53EB"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.UiButtonOnClickEvent
@@ -403,7 +395,7 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 0
+        - target: 2
           excludeSelf:
             useVariable: 0
             name: 
@@ -412,19 +404,19 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           gameObject:
-            ownerOption: 0
+            ownerOption: 1
             gameObject:
-              useVariable: 0
-              name: 
+              useVariable: 1
+              name: Obj_SendTarget
               tooltip: 
-              showInInspector: 0
+              showInInspector: 1
               networkSync: 0
               value: {fileID: 0}
           fsmName:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: Fsm
             tooltip: 
-            showInInspector: 0
+            showInInspector: 1
             networkSync: 0
             value: 
           sendToChildren:
@@ -451,7 +443,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Go
+        - Click
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
