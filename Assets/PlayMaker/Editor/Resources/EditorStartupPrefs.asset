@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de5210ce93b60c74b910290c522cd727, type: 3}
   m_Name: EditorStartupPrefs
   m_EditorClassIdentifier: 
-  welcomeScreenVersion: '1.9.0 '
+  welcomeScreenVersion: 
   playmakerVersion: 
-  showWelcomeScreen: 0
+  showWelcomeScreen: 1
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2018.4.4f1__C:/Work/UnityProject/ncsist/Assets__0.0.0.0
+  lastAutoUpdateSignature: '2018.3.0f2__C:/Projects/Playmaker_1.9.0/Projects/Unity2018.3/Playmaker.gen.unity/Assets__ '
   useLegacyNetworking: 0

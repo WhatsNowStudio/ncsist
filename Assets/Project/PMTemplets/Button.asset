@@ -457,21 +457,24 @@ MonoBehaviour:
         paramDataPos: 000000000000000000000000
         paramByteDataSize: 000000000000000000000000
     events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     - name: Click
       isSystemEvent: 0
       isGlobal: 1
-    - name: SelectOn
+    - name: Go
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Process
       isSystemEvent: 0
       isGlobal: 1
     - name: SelectOff
       isSystemEvent: 0
       isGlobal: 1
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: Go
+    - name: SelectOn
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: Click
@@ -494,6 +497,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u6D88\u9192\u76EE"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Process
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u547C\u53EB"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
