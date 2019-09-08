@@ -500,14 +500,6 @@ MonoBehaviour:
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
-    - fsmEvent:
-        name: Process
-        isSystemEvent: 0
-        isGlobal: 1
-      toState: "\u547C\u53EB"
-      linkStyle: 0
-      linkConstraint: 0
-      colorIndex: 0
     variables:
       floatVariables: []
       intVariables: []
