@@ -23,6 +23,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 
+    - useVariable: 1
+      name: "Gstring/Json/\u6211\u65B9"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: "Gstring/Json/\u6575\u65B9"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -60,7 +72,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
   events:
   - Hover
   - Click
