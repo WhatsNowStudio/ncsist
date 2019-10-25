@@ -130,7 +130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
@@ -272,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
@@ -343,7 +343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
@@ -407,18 +407,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: cfb2b464440964b4e8b2e19a41d7e973, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb2b464440964b4e8b2e19a41d7e973, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb2b464440964b4e8b2e19a41d7e973, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: cfb2b464440964b4e8b2e19a41d7e973, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfb2b464440964b4e8b2e19a41d7e973, type: 3}
@@ -489,7 +477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
@@ -560,7 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11441102, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: buoyancyOffset
-      value: 0.7
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
