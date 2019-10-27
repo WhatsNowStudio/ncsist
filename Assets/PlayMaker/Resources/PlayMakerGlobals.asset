@@ -72,13 +72,13 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Gobj/Ship/Now
+      name: Gobj/3DCamera
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Gobj/3DCamera
+      name: Gobj/Ship/Now
       tooltip: 
       showInInspector: 0
       networkSync: 0
