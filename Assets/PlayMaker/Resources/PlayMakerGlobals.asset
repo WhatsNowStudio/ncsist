@@ -78,7 +78,7 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Gobj/Ship/Now
+      name: Gobj/Ship
       tooltip: 
       showInInspector: 0
       networkSync: 0
