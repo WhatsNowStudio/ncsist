@@ -3322,7 +3322,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 407.39062
+        x: 567.3906
         y: 107
         width: 100
         height: 16
@@ -3374,7 +3374,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 76
+        x: 236
         y: 173.97656
         width: 102
         height: 32
@@ -3673,7 +3673,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 77
+        x: 237
         y: 222.97656
         width: 110.8
         height: 32
@@ -3972,7 +3972,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 73
+        x: 233
         y: 272.97656
         width: 110.8
         height: 32
@@ -4064,7 +4064,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 63
+        x: 223
         y: 325.97656
         width: 123.600006
         height: 16
@@ -4230,7 +4230,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 272
+        x: 432
         y: 362.97656
         width: 144
         height: 32
@@ -4404,7 +4404,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 277
+        x: 437
         y: 206.97656
         width: 102
         height: 16
@@ -4571,7 +4571,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 279
+        x: 439
         y: 453.97656
         width: 136.4
         height: 32
@@ -4695,7 +4695,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 283
+        x: 443
         y: 293.97656
         width: 100
         height: 32
@@ -4870,7 +4870,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 289
+        x: 449
         y: 639
         width: 171.6
         height: 32
@@ -4984,7 +4984,7 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 287
+        x: 447
         y: 557.97656
         width: 110
         height: 32
@@ -5143,7 +5143,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 303.41406
+        x: 463.41406
         y: 743.2969
         width: 100
         height: 16
@@ -5195,7 +5195,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 485.67188
+        x: 645.6719
         y: 199.79688
         width: 144.4
         height: 16
@@ -5285,7 +5285,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: '[x],[z],[y]'
+          value: '[z],[x],[y]'
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -5426,7 +5426,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 499.67188
+        x: 659.6719
         y: 342.79688
         width: 100
         height: 32
@@ -5514,7 +5514,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: '[x],[z],[y]'
+          value: '[z],[x],[y]'
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -5584,7 +5584,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 502.67188
+        x: 662.6719
         y: 421.79688
         width: 122.8
         height: 16
@@ -5607,8 +5607,8 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010000000000
-        actionIsOpen: 010101010001
+        actionEnabled: 010101010101
+        actionIsOpen: 010100000001
         actionStartIndex: 00000000060000000c000000130000001700000024000000
         actionHashCodes: a7550203a75502035552ad058963980527ffbc035e69bb04
         unityObjectParams: []
@@ -5905,7 +5905,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 502.67188
+        x: 662.6719
         y: 279.79688
         width: 100
         height: 32
@@ -6080,7 +6080,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 661
+        x: 821
         y: 364
         width: 100
         height: 16
@@ -6132,7 +6132,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 677
+        x: 837
         y: 297
         width: 100
         height: 16
@@ -6184,7 +6184,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 722
+        x: 882
         y: 418
         width: 100
         height: 16
