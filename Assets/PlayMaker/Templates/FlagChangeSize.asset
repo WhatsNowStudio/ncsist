@@ -120,17 +120,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetEventInfo
         - HutongGames.PlayMaker.Actions.SetScale
-        - HutongGames.PlayMaker.Actions.FloatOperator
         - HutongGames.PlayMaker.Actions.SetScale
         customNames:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101
-        actionIsOpen: 00000101
-        actionStartIndex: 000000000f000000160000001b000000
-        actionHashCodes: d9ade603afff11050cdb0405afff1105
+        actionEnabled: 010101
+        actionIsOpen: 000001
+        actionStartIndex: 000000000f00000016000000
+        actionHashCodes: d9ade603afff1105afff1105
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -244,25 +242,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: Float/LineSize
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/LineSize
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/LineSize
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/LineSize
+          name: Float/Size
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -334,12 +314,12 @@ MonoBehaviour:
           networkSync: 0
           value: {x: 0, y: 0, z: 0, w: 0}
         stringParams: []
-        byteData: 000003000000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000140000001c0000000f0000000f0000000f00000001000000010000000f0000000f000000070000000f00000001000000140000001c0000000f0000000f0000000f0000000100000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000140000001c0000000f0000000f0000000f0000000100000001000000140000001c0000000f0000000f0000000f0000000100000001000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -363,11 +343,6 @@ MonoBehaviour:
         - z
         - everyFrame
         - lateUpdate
-        - float1
-        - float2
-        - operation
-        - storeResult
-        - everyFrame
         - gameObject
         - vector
         - x
@@ -375,8 +350,8 @@ MonoBehaviour:
         - z
         - everyFrame
         - lateUpdate
-        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000000000000010000000100000002000000030000000000000001000000040000000500000002000000060000000600000001000000020000000700000008000000090000000700000008000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000004000000000000000100000000000000000000000000000000000000000000000100000001000000
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000000000001000000010000000200000003000000000000000100000001000000020000000400000005000000060000000200000003000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000000000000100000001000000
     events:
     - name: MapFlagSize
       isSystemEvent: 0
@@ -394,12 +369,6 @@ MonoBehaviour:
       floatVariables:
       - useVariable: 1
         name: Float/Size
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Float/LineSize
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -426,7 +395,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
