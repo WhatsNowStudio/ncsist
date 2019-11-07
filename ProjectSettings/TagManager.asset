@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Shootable
   - Missile
-  - Threat
   layers:
   - Default
   - TransparentFX
@@ -15,7 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Lighting
+  - Ground
+  - Postprocessing
   - Suimono_Water
   - Suimono_Depth
   - Suimono_Screen
@@ -37,9 +39,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
   m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
