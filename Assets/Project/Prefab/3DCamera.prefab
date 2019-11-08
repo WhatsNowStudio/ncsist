@@ -577,7 +577,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UniStorm.WeatherType
-            value: {fileID: 11400000, guid: 496382d3b6d3bde4ba6af9ddd1274248, type: 2}
+            value: {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
           StringParameter:
             useVariable: 0
             name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         typeName: UniStorm.WeatherType
-        value: {fileID: 11400000, guid: 496382d3b6d3bde4ba6af9ddd1274248, type: 2}
+        value: {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
       materialVariables: []
       textureVariables: []
       arrayVariables: []
