@@ -177,12 +177,12 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.18062478, g: 0.28122625, b: 0.38679248, a: 1}
+    - _BaseColor: {r: 0.34834465, g: 0.5478441, b: 0.7169812, a: 1}
     - _BlendColor: {r: 1, g: 0, b: 0, a: 1}
     - _BlendTextureUandVspeedZWNotused: {r: 0.01, g: 0.01, b: 0, a: 0}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _CubemapBaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.011213952, g: 0.07775718, b: 0.11320752, a: 1}
     - _FirstWaveUandVspeed: {r: 0, g: 0, b: 0, a: 0}
     - _FirstWaveUandVspeedZWNotused: {r: 0, g: 0, b: 0, a: 0}
     - _FourthWaveUandVspeed: {r: -0.05, g: -0.075, b: 0, a: 0}
