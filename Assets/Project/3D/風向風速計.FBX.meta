@@ -1,17 +1,28 @@
 fileFormatVersion: 2
-guid: ae50afe2cd68c7c46b444031a611fb87
+guid: 39ca6788f49faad4cb8f433f1677f4d8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: white
-    2100002: Black
-    2100004: '19 - Default Slot #3'
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: "\u6575\u65B9\u98DB\u5F48"
-    4300002: "\u6B21\u97F3\u901F\u98DB\u5F48"
+    100000: "\u98A8\u5411\u8A2D\u5099"
+    100002: "\u98A8\u5411\u98A8\u901F\u5100\u652F\u67F1"
+    100004: //RootNode
+    100006: "\u98A8\u901F\u6247\u7247"
+    400000: "\u98A8\u5411\u8A2D\u5099"
+    400002: "\u98A8\u5411\u98A8\u901F\u5100\u652F\u67F1"
+    400004: //RootNode
+    400006: "\u98A8\u901F\u6247\u7247"
+    2100000: grey
+    2100002: black
+    2100004: fade
+    2300000: "\u98A8\u5411\u8A2D\u5099"
+    2300002: "\u98A8\u5411\u98A8\u901F\u5100\u652F\u67F1"
+    2300004: "\u98A8\u901F\u6247\u7247"
+    3300000: "\u98A8\u5411\u8A2D\u5099"
+    3300002: "\u98A8\u5411\u98A8\u901F\u5100\u652F\u67F1"
+    3300004: "\u98A8\u901F\u6247\u7247"
+    4300000: "\u98A8\u5411\u98A8\u901F\u5100\u652F\u67F1"
+    4300002: "\u98A8\u901F\u6247\u7247"
+    4300004: "\u98A8\u5411\u8A2D\u5099"
   externalObjects: {}
   materials:
     importMaterials: 1

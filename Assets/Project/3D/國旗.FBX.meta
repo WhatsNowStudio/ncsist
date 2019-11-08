@@ -1,17 +1,23 @@
 fileFormatVersion: 2
-guid: ae50afe2cd68c7c46b444031a611fb87
+guid: 9e34729cbbd56894c9f83a4a9d71fc04
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: white
-    2100002: Black
-    2100004: '19 - Default Slot #3'
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: "\u6575\u65B9\u98DB\u5F48"
-    4300002: "\u6B21\u97F3\u901F\u98DB\u5F48"
+    100000: Flag
+    100002: Stick
+    100004: //RootNode
+    400000: Flag
+    400002: Stick
+    400004: //RootNode
+    2100000: flag
+    2100002: Red
+    2100004: grey
+    2300000: Flag
+    2300002: Stick
+    3300000: Flag
+    3300002: Stick
+    4300000: Flag
+    4300002: Stick
   externalObjects: {}
   materials:
     importMaterials: 1

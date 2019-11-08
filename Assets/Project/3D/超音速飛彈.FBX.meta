@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: ae50afe2cd68c7c46b444031a611fb87
+guid: ef841cd9928d7114593fd74217b0394d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
     2100000: white
-    2100002: Black
-    2100004: '19 - Default Slot #3'
+    2100002: Green
     2300000: //RootNode
     3300000: //RootNode
-    4300000: "\u6575\u65B9\u98DB\u5F48"
-    4300002: "\u6B21\u97F3\u901F\u98DB\u5F48"
+    4300000: "\u8D85\u97F3\u901F\u98DB\u5F48"
   externalObjects: {}
   materials:
     importMaterials: 1
