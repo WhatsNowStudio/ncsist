@@ -981,13 +981,13 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000001
+        actionIsOpen: 000000010001
         actionStartIndex: 0000000003000000060000000e0000001b0000001f000000
         actionHashCodes: 599a9305599a93057370ae0527ffbc035e69bb0488611604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: Obj/Owner
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1573,9 +1573,9 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 1
-          name: 
+          name: String/FsmName
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 
         fsmObjectParams:
@@ -1615,7 +1615,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.05
+          value: 0
         fsmIntParams:
         - useVariable: 1
           name: 
@@ -2760,6 +2760,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 
+      - useVariable: 1
+        name: String/FsmName
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables:
       - useVariable: 1
@@ -2846,7 +2852,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
