@@ -130,8 +130,7 @@ AudioSource:
 --- !u!1 &130502354119431324
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1370831524324998, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -149,8 +148,7 @@ GameObject:
 --- !u!4 &130502354119431327
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4008707301963226, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354119431324}
@@ -164,8 +162,7 @@ Transform:
 --- !u!33 &130502354119431321
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 33978643286764012, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354119431324}
@@ -173,8 +170,7 @@ MeshFilter:
 --- !u!23 &130502354119431326
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 23323650542188258, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354119431324}
@@ -211,8 +207,7 @@ MeshRenderer:
 --- !u!1 &130502354257357715
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1489021326357746, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -229,8 +224,7 @@ GameObject:
 --- !u!4 &130502354257357714
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4861118983755166, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354257357715}
@@ -244,8 +238,7 @@ Transform:
 --- !u!23 &130502354257357709
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 23408641358222406, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354257357715}
@@ -282,8 +275,7 @@ MeshRenderer:
 --- !u!1 &130502354336531947
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1452835902472988, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -300,8 +292,7 @@ GameObject:
 --- !u!4 &130502354336531946
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4394627718709464, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354336531947}
@@ -315,8 +306,7 @@ Transform:
 --- !u!182 &130502354336531941
 WindZone:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 182382255585998148, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354336531947}
@@ -330,8 +320,7 @@ WindZone:
 --- !u!1 &130502354362188501
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1661358488687352, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -347,8 +336,7 @@ GameObject:
 --- !u!4 &130502354362188500
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4751030889077998, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354362188501}
@@ -489,8 +477,7 @@ AudioSource:
 --- !u!1 &130502354531289801
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1611739553964940, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -509,8 +496,7 @@ GameObject:
 --- !u!4 &130502354531289800
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4859874764758192, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354531289801}
@@ -525,8 +511,7 @@ Transform:
 --- !u!33 &130502354531289797
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 33406940035202716, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354531289801}
@@ -534,8 +519,7 @@ MeshFilter:
 --- !u!23 &130502354531289802
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 23329805641322848, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354531289801}
@@ -572,8 +556,7 @@ MeshRenderer:
 --- !u!114 &130502354531289803
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114818977282857676, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354531289801}
@@ -598,8 +581,7 @@ MonoBehaviour:
 --- !u!1 &130502354616935161
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1448381994003506, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -616,8 +598,7 @@ GameObject:
 --- !u!4 &130502354616935163
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4768532938839230, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354616935161}
@@ -635,8 +616,7 @@ Transform:
 --- !u!114 &130502354616935160
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114651210412826156, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354616935161}
@@ -677,7 +657,7 @@ MonoBehaviour:
   UniStormMenuKey: 27
   UniStormCanvas: {fileID: 0}
   m_MenuToggle: 0
-  TabNumber: 2
+  TabNumber: 0
   TimeTabNumbers: 0
   WeatherTabNumbers: 1
   CelestialTabNumbers: 0
@@ -718,7 +698,7 @@ MonoBehaviour:
   DayLength: 4
   NightLength: 4
   m_TimeFloat: 0
-  TimeFlow: 0
+  TimeFlow: 1
   RealWorldTime: 1
   m_HourUpdate: 0
   TimeOfDaySoundsSecondsMin: 5
@@ -763,7 +743,7 @@ MonoBehaviour:
   TimeOfDayMusicDelay: 1
   TimeOfDaySoundsDuringPrecipitationWeather: 1
   CurrentTimeOfDay: 0
-  WeatherGenerationMethod: 1
+  WeatherGenerationMethod: 0
   WeatherForecast: []
   CloudyFadeControl:
     serializedVersion: 2
@@ -879,36 +859,13 @@ MonoBehaviour:
   NonPrecipiationWeatherTypes: []
   PrecipiationWeatherTypes: []
   AllWeatherTypes:
-  - {fileID: 11400000, guid: 5e51740885cc8c14497e44041aeb303e, type: 2}
-  - {fileID: 11400000, guid: 496382d3b6d3bde4ba6af9ddd1274248, type: 2}
-  - {fileID: 11400000, guid: b1b04f0270cfa784588fdc5818097ad3, type: 2}
   - {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
-  - {fileID: 11400000, guid: 8564137bd991ab448bb763ee76ea290f, type: 2}
-  - {fileID: 11400000, guid: 10a5f5e364219424e99103df231bb307, type: 2}
-  - {fileID: 11400000, guid: f0417bc7aee5058499ed9c7e3cab98ec, type: 2}
-  - {fileID: 11400000, guid: 7ebca4bb3b5bc94439d523e69756d95d, type: 2}
-  - {fileID: 11400000, guid: e9e48507f8ad9544193e97f1973cf946, type: 2}
-  - {fileID: 11400000, guid: 817c2abbadfb7c04cbd380d43ef46e06, type: 2}
-  - {fileID: 11400000, guid: b1712a7ceb8a9954dab341bacd44f5a8, type: 2}
-  - {fileID: 11400000, guid: 7f28b4fe748968e4c8d41edb0be40828, type: 2}
-  - {fileID: 11400000, guid: bad5e6801a6223942b1fb7cd7cf611d6, type: 2}
-  - {fileID: 11400000, guid: 796fbe4839cd13f4f91aba26ad35ebf0, type: 2}
-  - {fileID: 11400000, guid: b4b7d963b44ee6244a1db2ecb60efdab, type: 2}
-  - {fileID: 11400000, guid: 189387f15363c854481e654b3ea19abb, type: 2}
-  - {fileID: 11400000, guid: 26f4b8522773f344aa5550d74cc52ce6, type: 2}
-  - {fileID: 11400000, guid: cdd5a76100a69fe41ad873c4355fb159, type: 2}
-  - {fileID: 11400000, guid: dfdaddca1cf225b4f843dd0745ff32b0, type: 2}
   - {fileID: 11400000, guid: ec37544ca0d8b3640b920a1f69c80705, type: 2}
-  - {fileID: 11400000, guid: c34eda7e7ffbd3f438b544e91ed00986, type: 2}
-  - {fileID: 11400000, guid: a9bd836f3fecbe4469f275559ee76f01, type: 2}
-  - {fileID: 11400000, guid: 601a6938fd2feec47bb7c99a5497ae9b, type: 2}
-  - {fileID: 11400000, guid: 2a15ac63af4bdb746bd5016842226a46, type: 2}
-  - {fileID: 11400000, guid: 96e1dfcfb40114941a22ed265a84d385, type: 2}
-  CurrentWeatherType: {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
+  CurrentWeatherType: {fileID: 11400000, guid: ec37544ca0d8b3640b920a1f69c80705, type: 2}
   NextWeatherType: {fileID: 0}
   ByPassCoverageTransition: 0
   m_PrecipitationOdds: 50
-  TransitionSpeed: 3
+  TransitionSpeed: 1
   HourToChangeWeather: 0
   UniStormWindZone: {fileID: 0}
   m_SoundTransform: {fileID: 0}
@@ -1516,7 +1473,7 @@ MonoBehaviour:
   m_CloudShadows: {fileID: 0}
   m_CurrentCloudHeight: 0
   CloudShadowResolution: 0
-  CloudSpeed: 10
+  CloudSpeed: 50
   CloudTurbulence: 10
   DetectionLayerMask:
     serializedVersion: 2
@@ -2798,8 +2755,7 @@ MonoBehaviour:
 --- !u!1 &130502354767398646
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1147399352157096, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -2816,8 +2772,7 @@ GameObject:
 --- !u!4 &130502354767398643
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4721729131321430, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354767398646}
@@ -2832,8 +2787,7 @@ Transform:
 --- !u!108 &130502354767398641
 Light:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 108935207669284714, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354767398646}
@@ -2871,8 +2825,7 @@ Light:
 --- !u!1 &130502354891836318
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1914949563541886, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -2888,8 +2841,7 @@ GameObject:
 --- !u!4 &130502354891836313
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4747245971421630, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502354891836318}
@@ -2905,8 +2857,7 @@ Transform:
 --- !u!1 &130502355595118293
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1855939722226684, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -2923,8 +2874,7 @@ GameObject:
 --- !u!4 &130502355595118292
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4648281300522816, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502355595118293}
@@ -2938,8 +2888,7 @@ Transform:
 --- !u!108 &130502355595118295
 Light:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 108018139868863640, guid: e6e4cc78e996ac840bff5d152fe7b66d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130502355595118293}

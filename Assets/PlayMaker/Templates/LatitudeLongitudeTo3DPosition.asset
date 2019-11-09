@@ -2172,6 +2172,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.Vector3Add
         - HutongGames.PlayMaker.Actions.ConvertVector3ToString
         - HutongGames.PlayMaker.Actions.StringReplace
+        - HutongGames.PlayMaker.Actions.StringReplace
         customNames:
         - 
         - 
@@ -2179,10 +2180,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000000000000
-        actionStartIndex: 00000000030000000a0000000e0000001200000017000000
-        actionHashCodes: 71c75a037370ae0573ea9b0289639805e5610303788f1c03
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 00000000000101
+        actionStartIndex: 00000000030000000a0000000e00000012000000170000001c000000
+        actionHashCodes: 71c75a037370ae0573ea9b0289639805e5610303788f1c03788f1c03
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -2283,6 +2285,30 @@ MonoBehaviour:
           showInInspector: 1
           networkSync: 0
           value: 
+        - useVariable: 1
+          name: String/Result
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: ',NaN'
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: String/Result
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -2326,13 +2352,13 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000000000
+        byteData: 0000000000000000
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1300000012000000010000000c00000012000000120000001200000011000000120000000100000012000000120000001c000000010000001c0000001c00000001000000010000001c000000120000001200000012000000010000001200000012000000120000001200000001000000
+        paramDataType: 1300000012000000010000000c00000012000000120000001200000011000000120000000100000012000000120000001c000000010000001c0000001c00000001000000010000001c0000001200000012000000120000000100000012000000120000001200000012000000010000001200000012000000120000001200000001000000
         paramName:
         - gameObject
         - storeName
@@ -2362,8 +2388,13 @@ MonoBehaviour:
         - with
         - storeResult
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000010000000200000003000000000000000400000001000000050000000600000000000000020000000100000002000000030000000400000003000000070000000800000009000000050000000a0000000b0000000c0000000d00000006000000
-        paramByteDataSize: 00000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000010000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000
+        - stringVariable
+        - replace
+        - with
+        - storeResult
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000010000000200000003000000000000000400000001000000050000000600000000000000020000000100000002000000030000000400000003000000070000000800000009000000050000000a0000000b0000000c0000000d000000060000000e0000000f000000100000001100000007000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000010000000000000000000000000000000100000000000000000000000100000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000
     - name: "\u8A08\u7B97\u6BD4\u4F8B\u5C3A"
       description: 
       colorIndex: 2
