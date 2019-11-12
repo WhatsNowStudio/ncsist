@@ -3312,7 +3312,7 @@ GameObject:
   - component: {fileID: 966269919}
   - component: {fileID: 966269923}
   m_Layer: 5
-  m_Name: L_0_1_1_0_1_1_0_0
+  m_Name: L_6_1_15_6_1_15_30_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4341,6 +4341,18 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 
+      - useVariable: 1
+        name: "String/\u7206\u70B8\u6642\u9593"
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: "String/\u6301\u7E8C\u6642\u9593"
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -4456,7 +4468,8 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: {fileID: 0}
+        value: {fileID: 2664810536399610535, guid: c4ee524f7a75cfe499b39f195a558ac1,
+          type: 3}
       - useVariable: 1
         name: Obj/Public
         tooltip: 
@@ -4468,7 +4481,8 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: {fileID: 0}
+        value: {fileID: 4571825485716429863, guid: 0ccd4406340997f448fcacc06fbf45f4,
+          type: 3}
       - useVariable: 1
         name: "Obj/\u8F14\u52A9\u5F48/Now"
         tooltip: 
@@ -4482,7 +4496,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -4492,7 +4506,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -4542,7 +4556,7 @@ GameObject:
   - component: {fileID: 1074915383}
   - component: {fileID: 1074915387}
   m_Layer: 5
-  m_Name: R_0_1_1_0_1_1_0_0
+  m_Name: R_6_1_15_6_1_15_30_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23038,7 +23052,8 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: {fileID: 0}
+        value: {fileID: 2664810536399610535, guid: c4ee524f7a75cfe499b39f195a558ac1,
+          type: 3}
       - useVariable: 1
         name: Obj/Public
         tooltip: 
@@ -23050,7 +23065,8 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: {fileID: 0}
+        value: {fileID: 4571825485716429863, guid: 0ccd4406340997f448fcacc06fbf45f4,
+          type: 3}
       - useVariable: 1
         name: "Obj/\u8F14\u52A9\u5F48/Now"
         tooltip: 
