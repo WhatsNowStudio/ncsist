@@ -1916,12 +1916,12 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 1
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 2
         - useVariable: 0
           name: 
           tooltip: 
