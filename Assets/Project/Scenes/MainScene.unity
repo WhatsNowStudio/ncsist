@@ -11524,9 +11524,10 @@ PrefabInstance:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
       value: 
       objectReference: {fileID: 1523742878}
-    - target: {fileID: 1067013604, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+    - target: {fileID: 8529418740586598027, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.1500244
+      value: -30.000122
       objectReference: {fileID: 0}
     - target: {fileID: 1142918425, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
       propertyPath: m_AnchorMin.y
@@ -11559,6 +11560,10 @@ PrefabInstance:
     - target: {fileID: 321476458, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012857540, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10.000122
       objectReference: {fileID: 0}
     - target: {fileID: 1435948110, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
       propertyPath: m_AnchorMin.y
