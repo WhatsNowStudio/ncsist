@@ -10997,7 +10997,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.11
         - useVariable: 1
           name: Speed
           tooltip: 
@@ -11532,7 +11532,6 @@ GameObject:
   - component: {fileID: 5157955745940384874}
   - component: {fileID: 5157955745940384875}
   - component: {fileID: 5157955745940384878}
-  - component: {fileID: 5157955745940384868}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -11658,45 +11657,6 @@ MonoBehaviour:
   mask2Tex: {fileID: 0}
   fogShader: {fileID: 0}
   fogMaterial: {fileID: 0}
---- !u!114 &5157955745940384868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5157955745940384876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a879e317c20b0d41a9a56f1a97f4cf8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ApplyMethod: 0
-  SampleCount: 1
-  PerPixelNormals: 2
-  Intensity: 0.728
-  Tint: {r: 0, g: 0, b: 0, a: 1}
-  Radius: 2
-  PowerExponent: 1.8
-  Bias: 0.05
-  Thickness: 1
-  Downsample: 1
-  CacheAware: 1
-  FadeEnabled: 0
-  FadeStart: 100
-  FadeLength: 50
-  FadeToIntensity: 0
-  FadeToTint: {r: 0, g: 0, b: 0, a: 1}
-  FadeToRadius: 2
-  FadeToPowerExponent: 1
-  FadeToThickness: 1
-  BlurEnabled: 1
-  BlurRadius: 3
-  BlurPasses: 1
-  BlurSharpness: 15
-  FilterEnabled: 1
-  FilterDownsample: 1
-  FilterBlending: 0.8
-  FilterResponse: 0.5
 --- !u!1 &6908069999990764933
 GameObject:
   m_ObjectHideFlags: 0

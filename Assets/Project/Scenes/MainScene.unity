@@ -175,6 +175,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2493188}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &44323274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 44323274, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!84 &49315589
 RenderTexture:
   m_ObjectHideFlags: 0
@@ -1156,6 +1162,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34802f7393099e04da807606a2803f15, type: 3}
+--- !u!1 &299298992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 299298992, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &327084632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,39 +1234,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &334822464
-RenderTexture:
+--- !u!1 &390006480
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 128
-  m_Height: 128
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!21 &337099532
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390006481}
+  m_Layer: 0
+  m_Name: "\u767C\u5C04\u67B6_\u5DE6"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &390006481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390006480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.0700006, y: 17.165998, z: 5.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1183516025}
+  m_Father: {fileID: 1957164685}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &402244893
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1495,205 +1506,6 @@ Material:
     - _castshadowColor: {r: 0, g: 1, b: 0.79, a: 0.18}
     - _depthColor: {r: 0.0758277, g: 0.15918855, b: 0.2264151, a: 1}
     - _shallowColor: {r: 0.208, g: 0.373, b: 0.441, a: 0.784}
---- !u!1 &390006480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 390006481}
-  - component: {fileID: 390006482}
-  m_Layer: 0
-  m_Name: "\u767C\u5C04\u67B6_\u5DE6"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &390006481
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390006480}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.0700006, y: 17.165998, z: 5.24}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1183516025}
-  m_Father: {fileID: 1957164685}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &390006482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390006480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 1
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
---- !u!84 &460765911
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &465118823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1515,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465118824}
-  - component: {fileID: 465118825}
   m_Layer: 0
   m_Name: "\u767C\u5C04\u67B6_\u53F3"
   m_TagString: Untagged
@@ -1726,141 +1537,6 @@ Transform:
   m_Father: {fileID: 1957164685}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &465118825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465118823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 1
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
 --- !u!1 &478628596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,6 +1570,12 @@ Transform:
   m_Father: {fileID: 1113226513}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &509842911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 303748090303221675, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &551021255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1973,10 +1655,6 @@ PrefabInstance:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
       objectReference: {fileID: 1306258525}
-    - target: {fileID: 524909041, guid: 0aae8b1bd97916b4e869ea4ada0a1776, type: 3}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmFloatParams.Array.data[2].value
-      value: 0.11
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0aae8b1bd97916b4e869ea4ada0a1776, type: 3}
 --- !u!114 &601880569 stripped
@@ -2034,38 +1712,6 @@ Transform:
   m_Father: {fileID: 2034544867}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &679808296
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &681216274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,7 +1762,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: ec3c2732f9695b64db00957094118434, type: 2}
-  - {fileID: 2100000, guid: 667d0e103182463419d66f2fe7e401e2, type: 2}
+  - {fileID: 2100000, guid: fb8cc142a645d6a4ea1bf6b5a6bd9dd7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2144,6 +1790,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681216274}
   m_Mesh: {fileID: 4300000, guid: ef841cd9928d7114593fd74217b0394d, type: 3}
+--- !u!84 &754963559
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &790744100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2201,38 +1879,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2ecd97c64ff72c4bb26cd7190f5af1d, type: 3}
---- !u!84 &828791086
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &813623129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 813623129, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 128
-  m_Height: 128
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &904888120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2316,70 +1968,6 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_Width: 128
   m_Height: 128
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!84 &952040626
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 11
-  m_MipMap: 0
-  m_GenerateMips: 0
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 2
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
---- !u!84 &966592528
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 512
-  m_Height: 512
   m_AntiAliasing: 1
   m_DepthFormat: 2
   m_ColorFormat: 11
@@ -8345,6 +7933,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 272524958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1395399728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1395399728, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1400200718 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7772840638189760589, guid: e6e7595f78cf85840988a80a4264d045,
@@ -8574,6 +8168,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2095630338}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1493892463
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1503193533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8644,7 +8270,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1563287680}
-  - component: {fileID: 1563287681}
   m_Layer: 0
   m_Name: "\u767C\u5C04\u67B6_\u5DE6"
   m_TagString: Untagged
@@ -8667,141 +8292,70 @@ Transform:
   m_Father: {fileID: 1831460049}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1563287681
-MonoBehaviour:
+--- !u!84 &1596716724
+RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563287679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 1
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!84 &1623300213
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 128
+  m_Height: 128
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1665698313
 GameObject:
   m_ObjectHideFlags: 0
@@ -8990,7 +8544,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797519029}
-  - component: {fileID: 1797519030}
   m_Layer: 0
   m_Name: "\u767C\u5C04\u67B6_\u53F3"
   m_TagString: Untagged
@@ -9013,141 +8566,12 @@ Transform:
   m_Father: {fileID: 1831460049}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1797519030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &1811864857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1811864857, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797519028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 1
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
 --- !u!1001 &1831460048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9242,6 +8666,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7648347268582081117, guid: f8c5f9b7d7cf1ad4ea1792997a7c70cd,
     type: 3}
   m_PrefabInstance: {fileID: 1831460048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1877669863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3198926634306568088, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918621902 stripped
 GameObject:
@@ -11510,11 +10940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11496036, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: systemLocalTime
-      value: 324.45804
+      value: 25.415604
       objectReference: {fileID: 0}
     - target: {fileID: 11496036, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: localTime
-      value: 32.445805
+      value: 2.5415604
       objectReference: {fileID: 0}
     - target: {fileID: 11496036, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: moduleObject
@@ -11547,7 +10977,7 @@ PrefabInstance:
     - target: {fileID: 11496036, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: skybox
       value: 
-      objectReference: {fileID: 2100000, guid: f049e97d2aadb8f4cb24f80ca9ad0962, type: 2}
+      objectReference: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 11496036, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: pdir
       value: C:/Work/UnityProject/ncsist/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In
@@ -11824,7 +11254,7 @@ PrefabInstance:
     - target: {fileID: 2300006, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 337099532}
+      objectReference: {fileID: 402244893}
     - target: {fileID: 440958, guid: be5dd6f307215d24d93e0aa63e392a16, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.000000007595035
@@ -12199,6 +11629,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &2051825883
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 128
+  m_Height: 128
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &2095630338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12278,6 +11740,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1748663194}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &2115365621
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_DepthFormat: 2
+  m_ColorFormat: 11
+  m_MipMap: 0
+  m_GenerateMips: 0
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 2
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &2128961606
 GameObject:
   m_ObjectHideFlags: 0
@@ -12396,6 +11890,12 @@ Transform:
   m_Father: {fileID: 2034544867}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145085116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2145085116, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &422493375103860902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12735,7 +12235,7 @@ PrefabInstance:
     - target: {fileID: 6540177942367622539, guid: e6e7595f78cf85840988a80a4264d045,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 67.28671
+      value: 66.626724
       objectReference: {fileID: 0}
     - target: {fileID: 6540177942367622539, guid: e6e7595f78cf85840988a80a4264d045,
         type: 3}
@@ -12811,6 +12311,178 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1523742878}
     - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionNames.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.customNames.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionEnabled.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionIsOpen.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionStartIndex.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionHashCodes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.fsmIntParams.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.stringParams.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramByteDataSize.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].transitions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.variableCategoryIDs.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionNames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.customNames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionEnabled.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionIsOpen.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionStartIndex.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionHashCodes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.byteData.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramDataType.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramName.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramDataPos.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramByteDataSize.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionNames.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.customNames.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionEnabled.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionIsOpen.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionStartIndex.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionHashCodes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.byteData.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataPos.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramByteDataSize.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.fsmFloatParams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.byteData.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
       propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 1665698313}
@@ -12830,6 +12502,434 @@ PrefabInstance:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
       value: 
       objectReference: {fileID: 621533780}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionNames.Array.data[2]
+      value: HutongGames.PlayMaker.Actions.Wait
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionEnabled.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionIsOpen.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionStartIndex.Array.data[2]
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionHashCodes.Array.data[2]
+      value: 17940552
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.fsmIntParams.Array.data[1].value
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.data[17]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.data[18]
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.data[17]
+      value: time
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.data[18]
+      value: finishEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.data[17]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.stringParams.Array.data[1]
+      value: Go
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].position.height
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].transitions.Array.data[0].fsmEvent.name
+      value: Go
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].transitions.Array.data[0].toState
+      value: "\u66AB\u505C\u6C34"
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].name
+      value: "\u66AB\u505C\u6C34"
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].position.x
+      value: 386
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].position.y
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].position.width
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].position.height
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].name
+      value: Object/Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].name
+      value: Object/Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].typeName
+      value: UnityEngine.Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.variables.objectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 1665698314}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionNames.Array.data[0]
+      value: HutongGames.PlayMaker.Actions.SetProperty
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionEnabled.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionIsOpen.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.actionHashCodes.Array.data[0]
+      value: 72534106
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetObject.typeName
+      value: UnityEngine.Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].ColorParameter.value.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].ArrayParameter.type
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].setProperty
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramDataType.Array.data[0]
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramDataType.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramName.Array.data[0]
+      value: targetProperty
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramName.Array.data[1]
+      value: everyFrame
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.paramByteDataSize.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetObject.useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetTypeName
+      value: UnityEngine.Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetObject.name
+      value: Object/Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetObject.showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].TargetObject.value
+      value: 
+      objectReference: {fileID: 1665698314}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].PropertyName
+      value: enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].ObjectParameter.typeName
+      value: System.Boolean
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionNames.Array.data[1]
+      value: HutongGames.PlayMaker.Actions.AnimatorPlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionEnabled.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionIsOpen.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionStartIndex.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionHashCodes.Array.data[1]
+      value: 88165315
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetObject.useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetObject.name
+      value: Object/Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetObject.showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetObject.typeName
+      value: UnityEngine.Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetObject.value
+      value: 
+      objectReference: {fileID: 1665698314}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].TargetTypeName
+      value: UnityEngine.Animator
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].PropertyName
+      value: enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].ObjectParameter.typeName
+      value: System.Boolean
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].ColorParameter.value.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].EnumParameter.enumName
+      value: HutongGames.PlayMaker.None
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].ArrayParameter.type
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].ArrayParameter.objectTypeName
+      value: UnityEngine.Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].setProperty
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[5]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[5]
+      value: normalizedTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[6]
+      value: everyFrame
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataPos.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramByteDataSize.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].EnumParameter.enumName
+      value: HutongGames.PlayMaker.None
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[6].actionData.fsmPropertyParams.Array.data[0].ArrayParameter.objectTypeName
+      value: UnityEngine.Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionNames.Array.data[0]
+      value: HutongGames.PlayMaker.Actions.SetProperty
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.actionHashCodes.Array.data[0]
+      value: 72534106
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[0]
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[3]
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramDataType.Array.data[4]
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[0]
+      value: targetProperty
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[1]
+      value: everyFrame
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[2]
+      value: gameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[3]
+      value: stateName
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramName.Array.data[4]
+      value: layer
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramByteDataSize.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.paramByteDataSize.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmPropertyParams.Array.data[0].BoolParameter.value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionNames.Array.data[3]
+      value: HutongGames.PlayMaker.Actions.Wait
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionEnabled.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionIsOpen.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionStartIndex.Array.data[3]
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.actionHashCodes.Array.data[3]
+      value: 17940552
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.fsmFloatParams.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.data[20]
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataType.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.data[19]
+      value: realTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.data[20]
+      value: finishEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramName.Array.data[21]
+      value: realTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.data[20]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramDataPos.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramByteDataSize.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.stringParams.Array.data[2]
+      value: Go
+      objectReference: {fileID: 0}
+    - target: {fileID: 811818418, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+      propertyPath: fsm.states.Array.data[4].actionData.paramByteDataSize.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 811818419, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
       propertyPath: fsm.states.Array.data[6].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
@@ -12975,6 +13075,372 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.variableCategoryIDs.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].name
+      value: "Float/\u4FEF\u4EF0\u89D2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[1].name
+      value: "Float/\u6C34\u5E73\u89D2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[0].name
+      value: "Int/\u5E72\u64FE\u5F48"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[1].name
+      value: "Int/\u8A98\u6A19\u5F48"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[0].name
+      value: String/Public
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[1].name
+      value: "String/\u5DE6\u53F3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].name
+      value: String/SenderFsm
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].name
+      value: Obj/ExpEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 3812579341507771917, guid: 443d13b9c00f83547ab9358eb9502885,
+        type: 3}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].name
+      value: Obj/Owner
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].name
+      value: Obj/Sender
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[3].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[3].value
+      value: 
+      objectReference: {fileID: 44323274}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[4].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/InputField"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[4].value
+      value: 
+      objectReference: {fileID: 813623129}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[5].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/Slider"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[5].value
+      value: 
+      objectReference: {fileID: 299298992}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[6].name
+      value: "Obj/\u5E72\u64FE\u5F48/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[6].value
+      value: 
+      objectReference: {fileID: 1233344637}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[7].name
+      value: "Obj/\u5E72\u64FE\u5F48/Count"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[7].value
+      value: 
+      objectReference: {fileID: 1877669863}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].name
+      value: "Obj/\u65CB\u8F49\u767C\u5C04\u67B6OnShip/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].name
+      value: "Obj/\u65CB\u8F49\u767C\u5C04\u67B6OnShip/Gun"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].name
+      value: "Obj/\u6C34\u5E73\u89D2/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].value
+      value: 
+      objectReference: {fileID: 1395399728}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].name
+      value: "Obj/\u6C34\u5E73\u89D2/InputField"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].value
+      value: 
+      objectReference: {fileID: 1811864857}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].name
+      value: "Obj/\u6C34\u5E73\u89D2/Slider"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].value
+      value: 
+      objectReference: {fileID: 2145085116}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].name
+      value: "Obj/\u8A98\u6A19\u5F48/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].value
+      value: 
+      objectReference: {fileID: 281252134}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].name
+      value: "Obj/\u8A98\u6A19\u5F48/Count"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].value
+      value: 
+      objectReference: {fileID: 509842911}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[15].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[15].name
+      value: Obj/Weapone/Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].name
+      value: "Obj/Weapone/\u5E72\u64FEPrefab"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].name
+      value: "Obj/Weapone/\u8A98\u6A19Prefab"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150122163972077126, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7919231914987077042, guid: e6e7595f78cf85840988a80a4264d045,
         type: 3}
       propertyPath: m_Direction
@@ -13025,8 +13491,387 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.variableCategoryIDs.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[0].name
+      value: "Float/\u4FEF\u4EF0\u89D2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.floatVariables.Array.data[1].name
+      value: "Float/\u6C34\u5E73\u89D2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[0].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[0].name
+      value: "Int/\u5E72\u64FE\u5F48"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[1].name
+      value: "Int/\u8A98\u6A19\u5F48"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].name
+      value: String/SenderFsm
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].name
+      value: Obj/ExpEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
+      value: 
+      objectReference: {fileID: 3812579341507771917, guid: 443d13b9c00f83547ab9358eb9502885,
+        type: 3}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].name
+      value: Obj/Owner
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[1].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].name
+      value: Obj/Sender
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[3].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[3].value
+      value: 
+      objectReference: {fileID: 681933407246152984}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[4].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/InputField"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[4].value
+      value: 
+      objectReference: {fileID: 681933407246152982}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[5].name
+      value: "Obj/\u4FEF\u4EF0\u89D2/Slider"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[5].value
+      value: 
+      objectReference: {fileID: 681933407246152983}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[6].name
+      value: "Obj/\u5E72\u64FE\u5F48/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[6].value
+      value: 
+      objectReference: {fileID: 1400200718}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[7].name
+      value: "Obj/\u5E72\u64FE\u5F48/Count"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[7].value
+      value: 
+      objectReference: {fileID: 681933407246152978}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].name
+      value: "Obj/\u65CB\u8F49\u767C\u5C04\u67B6OnShip/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[8].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].name
+      value: "Obj/\u65CB\u8F49\u767C\u5C04\u67B6OnShip/Gun"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].showInInspector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[9].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].name
+      value: "Obj/\u6C34\u5E73\u89D2/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[10].value
+      value: 
+      objectReference: {fileID: 681933407246152981}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].name
+      value: "Obj/\u6C34\u5E73\u89D2/InputField"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[11].value
+      value: 
+      objectReference: {fileID: 681933407246152979}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].name
+      value: "Obj/\u6C34\u5E73\u89D2/Slider"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[12].value
+      value: 
+      objectReference: {fileID: 681933407246152980}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].name
+      value: "Obj/\u8A98\u6A19\u5F48/All"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[13].value
+      value: 
+      objectReference: {fileID: 2030808710}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].name
+      value: "Obj/\u8A98\u6A19\u5F48/Count"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[14].value
+      value: 
+      objectReference: {fileID: 681933407246152977}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[15].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[15].name
+      value: Obj/Weapone/Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].name
+      value: "Obj/Weapone/\u5E72\u64FEPrefab"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[16].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].useVariable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].name
+      value: "Obj/Weapone/\u8A98\u6A19Prefab"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.variables.gameObjectVariables.Array.data[17].showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629000525702418893, guid: e6e7595f78cf85840988a80a4264d045,
+        type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6e7595f78cf85840988a80a4264d045, type: 3}
+--- !u!1 &681933407246152977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 63408076908194482, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6902763076317919474, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3701755641314223726, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3575492512920562696, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2273685192826112198, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5634396849938356427, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6397414831784054577, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &681933407246152984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3569744471264927799, guid: e6e7595f78cf85840988a80a4264d045,
+    type: 3}
+  m_PrefabInstance: {fileID: 681933407246152976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5244380769950052571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4733703582998840779, guid: e6e7595f78cf85840988a80a4264d045,
