@@ -9,6 +9,12 @@ ModelImporter:
     2100002: black
     2100004: grey
     2100006: white
+    2100008: shellred
+    2100010: shellblack
+    2100012: shellgray
+    2100014: metalwhite
+    2100016: shellwhite
+    2100018: plasticwhite
     2300000: //RootNode
     3300000: //RootNode
     4300000: "\u6FDF\u967D\u8266"
