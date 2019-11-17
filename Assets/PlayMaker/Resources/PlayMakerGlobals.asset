@@ -41,6 +41,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 
+    - useVariable: 1
+      name: "Gstring/Split/\u222E"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u222E"
+    - useVariable: 1
+      name: "Gstring/Split/\u2211"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u2211"
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -126,7 +138,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - Hover
   - Click
@@ -159,3 +171,4 @@ MonoBehaviour:
   - Reset
   - ProcessFail
   - MapFlagSize
+  - FileDelete
