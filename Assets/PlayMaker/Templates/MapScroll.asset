@@ -1068,7 +1068,7 @@ MonoBehaviour:
           name: Y
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u6821\u6B63\u7E2E\u653E"
+        toState: "\u547C\u53EB\u8ABF\u6574UI"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0

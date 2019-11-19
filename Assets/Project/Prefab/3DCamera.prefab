@@ -12618,7 +12618,7 @@ MonoBehaviour:
   _pixelateDownscale: 0
   _antialiasStrength: 5
   _antialiasDepthThreshold: 0.001
-  isDirty: 0
+  isDirty: 1
   bMat: {fileID: 0}
 --- !u!114 &1968746322
 MonoBehaviour:
