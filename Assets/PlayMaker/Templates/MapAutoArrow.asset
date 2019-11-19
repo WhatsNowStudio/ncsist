@@ -44,7 +44,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetOwner
         - HutongGames.PlayMaker.Actions.GetPosition
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
+        - HutongGames.PlayMaker.Actions.NextFrameEventAdvance
         customNames:
         - 
         - 
@@ -52,7 +52,7 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 010101
         actionStartIndex: 000000000100000008000000
-        actionHashCodes: 5c0045055552ad0588611604
+        actionHashCodes: 5c0045055552ad0566e6a403
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -100,7 +100,13 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params:
@@ -120,7 +126,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 13000000140000001c0000000f0000000f0000000f000000070000000100000017000000
+        paramDataType: 13000000140000001c0000000f0000000f0000000f00000007000000010000001000000017000000
         paramName:
         - storeGameObject
         - gameObject
@@ -130,9 +136,10 @@ MonoBehaviour:
         - z
         - space
         - everyFrame
+        - frameCount
         - sendEvent
-        paramDataPos: 000000000000000000000000000000000100000002000000000000000400000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000100000000000000
+        paramDataPos: 00000000000000000000000000000000010000000200000000000000040000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000004000000010000000000000000000000
     - name: "\u8A08\u7B97\u89D2\u5EA6"
       description: 
       colorIndex: 0
@@ -147,8 +154,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: Go
+          isSystemEvent: 0
           isGlobal: 0
         toState: Start
         linkStyle: 0
@@ -159,14 +166,16 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.Vector3Operator
         - HutongGames.PlayMaker.Actions.LookAt
+        - HutongGames.PlayMaker.Actions.NextFrameEventAdvance
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000070000000d000000
-        actionHashCodes: 5552ad05a7550203d5799805
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000070000000d00000015000000
+        actionHashCodes: 5552ad05a7550203d579980566e6a403
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -223,12 +232,18 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
+          name: Angle
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
-        fsmIntParams: []
+          value: 1
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -263,13 +278,13 @@ MonoBehaviour:
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
-          name: V3/1
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
-          name: V3/1
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -289,13 +304,14 @@ MonoBehaviour:
           value: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0100000000070000000000
+        stringParams:
+        - Go
+        byteData: 0100000000030000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000001c0000001c000000070000001c0000000f0000000100000014000000130000001c0000001c00000011000000110000001900000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000001c0000001c000000070000001c0000000f0000000100000014000000130000001c0000001c000000110000001100000019000000010000001000000017000000
         paramName:
         - gameObject
         - vector
@@ -318,8 +334,10 @@ MonoBehaviour:
         - debug
         - debugLineColor
         - everyFrame
-        paramDataPos: 00000000000000000000000001000000020000000000000004000000010000000200000005000000030000000300000009000000010000000000000004000000050000000000000001000000000000000a000000
-        paramByteDataSize: 000000000000000000000000000000000000000004000000010000000000000000000000040000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
+        - frameCount
+        - sendEvent
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000010000000200000005000000030000000300000009000000010000000000000004000000050000000000000001000000000000000a0000000000000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000400000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
