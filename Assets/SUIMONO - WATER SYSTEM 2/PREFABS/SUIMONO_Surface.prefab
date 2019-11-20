@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Suimono_ObjectScale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400008}
   - component: {fileID: 11496036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SUIMONO_Surface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,9 +124,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   systemTime: 0
-  systemLocalTime: 0
+  systemLocalTime: 0.9950949
   flowSpeed: 0.05
-  flowDirection: 180
+  flowDirection: 230
   useBeaufortScale: 1
   beaufortScale: 2
   turbulenceFactor: 0.23999998
@@ -150,9 +150,9 @@ MonoBehaviour:
   underwaterDepth: 5
   useDX9Settings: 0
   moduleObject: {fileID: 0}
-  suimonoVersionNumber: 2.1.2
-  showGeneral: 0
-  typeIndex: 1
+  suimonoVersionNumber: 2.1.5
+  showGeneral: 1
+  typeIndex: 0
   editorIndex: 1
   editorUseIndex: 1
   enableCustomMesh: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   reflectLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  reflectionDistance: 1200
+  reflectionDistance: 100200
   reflectFallback: 1
   customRefCubemap: {fileID: 0}
   customRefColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
@@ -191,11 +191,11 @@ MonoBehaviour:
   customTexNormal2: {fileID: 0}
   customTexNormal3: {fileID: 0}
   useTexNormal1: {fileID: 2800000, guid: 48e29dc2e9488474081bc20a42a364b9, type: 3}
-  useTexNormal2: {fileID: 2800000, guid: 5af41a104448f0b4b916b73fd5153291, type: 3}
+  useTexNormal2: {fileID: 2800000, guid: fdd39131993ce804da86a2e71c17a742, type: 3}
   useTexNormal3: {fileID: 2800000, guid: fb77700eb10ac344db495df815b29823, type: 3}
-  showWaves: 0
+  showWaves: 1
   customWaves: 0
-  localTime: 0
+  localTime: 0.09950949
   beaufortVal: 0.16666667
   showShore: 0
   shorelineHeight: 0.397
@@ -266,10 +266,10 @@ MonoBehaviour:
   - Lava Flow
   - Mirror Reflection
   - Mud Thick Brown
+  - Oil Slick
   - Swimming Pool
-  - Test
   presetIndex: -1
-  presetUseIndex: 0
+  presetUseIndex: -1
   presetFileIndex: 0
   presetFileUseIndex: 0
   presetOptions: []
@@ -455,8 +455,7 @@ MonoBehaviour:
     <data_underDarkRange>(50)
 
 '
-  dir: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.1.2 (base 5.0) - C - rc3/Assets/SUIMONO
-    - WATER SYSTEM 2/RESOURCES/
+  dir: C:/Work/UnityProject/ncsist/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/
   baseDir: SUIMONO - WATER SYSTEM 2/RESOURCES/
   presetSaveName: my custom preset
   presetFile: 
@@ -469,11 +468,11 @@ MonoBehaviour:
   scaleOff: {x: 0, y: 0}
   i: 32
   layerName: 
-  skybox: {fileID: 2100000, guid: d4ddea6029592ec40aad6d5080007bda, type: 2}
+  skybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   d: 2
   dn: 2
-  pdir: G:/PROJECTS/SUIMONO 2.0/SUIMONO_V2.1.2 (base 5.0) - C - rc3/Assets/SUIMONO
-    - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In Presets
+  pdir: C:/Work/UnityProject/ncsist/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In
+    Presets
   f: 26
   px: 13
   nx: 26
@@ -506,7 +505,7 @@ GameObject:
   - component: {fileID: 3300006}
   - component: {fileID: 6480814}
   - component: {fileID: 2300006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Suimono_Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +565,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 434999af31d77af4aacb107170c00ba3, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -598,7 +597,7 @@ GameObject:
   - component: {fileID: 2061816}
   - component: {fileID: 11442224}
   - component: {fileID: 11449608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cam_LocalReflections
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,9 +611,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171792}
-  m_LocalRotation: {x: -0.0000000030272402, y: 0.99883753, z: 1.4609353e-10, w: -0.04820354}
-  m_LocalPosition: {x: 11.080002, y: 2.6800003, z: 23.899994}
-  m_LocalScale: {x: 1.0001969, y: 1, z: 1.0547462}
+  m_LocalRotation: {x: -0, y: 0.9238797, z: -0, w: -0.38268322}
+  m_LocalPosition: {x: -227.37029, y: -8.129078, z: -201.17027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
   m_RootOrder: 2
@@ -629,8 +628,8 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.15766464, g: 0.42825288, b: 0.6629412, a: 1}
-  m_projectionMatrixMode: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_GateFitMode: 2
@@ -641,23 +640,23 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 1
-  far clip plane: 1200
-  field of view: 50
+  near clip plane: 0.1
+  far clip plane: 100000
+  field of view: 65
   orthographic: 0
-  orthographic size: 100
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 1
-  m_RenderingPath: 2
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
+  m_ForceIntoRT: 1
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
@@ -685,7 +684,7 @@ MonoBehaviour:
   isUnderwater: 0
   surfaceRenderer: {fileID: 2300006}
   scaleRenderer: {fileID: 2300004}
-  reflectionDistance: 1200
+  reflectionDistance: 100200
   setLayers: 1
 --- !u!114 &11449608
 MonoBehaviour:

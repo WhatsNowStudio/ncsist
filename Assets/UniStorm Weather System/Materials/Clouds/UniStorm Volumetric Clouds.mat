@@ -51,19 +51,19 @@ Material:
     - CLOUDS_TURBULENCE_SPEED: 47.41
     - EARTH_RADIUS: 6371000
     - _DetailScale: 1
-    - _MaskMoon: 1
+    - _MaskMoon: 0
     - _Seed: -5257
     - _SnowStrength: 0
     - _WetnessStrength: 0
     - _WorldPosGlobal: 0
-    - _uAttenuation: -0.012989527
+    - _uAttenuation: 1.9368689
     - _uCloudAlpha: 1
     - _uCloudsBackwardScatteringG: -0.2
     - _uCloudsBaseEdgeSoftness: 0.025
     - _uCloudsBaseScale: 1.72
     - _uCloudsBottom: 1000
     - _uCloudsBottomSoftness: 1.1
-    - _uCloudsCoverage: 0.486
+    - _uCloudsCoverage: 0.508
     - _uCloudsCoverageBias: 0.0175
     - _uCloudsDensity: 0.9
     - _uCloudsDetailScale: 730
@@ -101,14 +101,14 @@ Material:
     - _SunColor: {r: 1, g: 0.9943289, b: 0.9009434, a: 1}
     - _SunDir: {r: 0.2784009, g: 0.9581905, b: 0.0660601, a: 0}
     - _uCloudColor: {r: 1, g: 1, b: 1, a: 1}
-    - _uCloudsAmbientColorBottom: {r: 0.09051226, g: 0.13249356, b: 0.16981058, a: 1}
-    - _uCloudsAmbientColorTop: {r: 0.21586867, g: 0.26513427, b: 0.31132078, a: 1}
+    - _uCloudsAmbientColorBottom: {r: 0.38823757, g: 0.46301308, b: 0.50980145, a: 1}
+    - _uCloudsAmbientColorTop: {r: 0.9811318, g: 0.9653803, b: 0.90243334, a: 1}
     - _uCloudsColor: {r: 1, g: 1, b: 1, a: 1}
     - _uCloudsHorizonColor: {r: 0, g: 0, b: 0, a: 1}
-    - _uFogColor: {r: 0.09339254, g: 0.13882801, b: 0.17084016, a: 0.0025}
+    - _uFogColor: {r: 0.4890471, g: 0.5471835, b: 0.6603625, a: 0.00075}
     - _uHorizonColor: {r: 1, g: 1, b: 1, a: 1}
     - _uLightningColor: {r: 0.63256925, g: 0.65693235, b: 0.66176474, a: 1}
     - _uMoonColor: {r: 0.66442686, g: 0.7165921, b: 0.745283, a: 1}
-    - _uMoonDir: {r: 0.63556206, g: -0.3590929, b: 0.6834568, a: 0}
-    - _uSunColor: {r: 0.17641675, g: 0.121058136, b: 0.07845087, a: 1}
-    - _uSunDir: {r: -0.33350006, g: 0.4234342, b: -0.84230745, a: 0}
+    - _uMoonDir: {r: 0.50538695, g: 0.31215477, b: -0.80445236, a: 0}
+    - _uSunColor: {r: 0.686034, g: 0.62241864, b: 0.5906109, a: 1}
+    - _uSunDir: {r: -0.18000036, g: -0.36808586, b: 0.9122021, a: 0}
