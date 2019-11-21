@@ -908,7 +908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject
+      value: buoyancyObject0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -975,7 +975,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject (1)
+      value: buoyancyObject1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1042,7 +1042,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject (5)
+      value: buoyancyObject5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1109,7 +1109,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject (4)
+      value: buoyancyObject4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1176,7 +1176,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject (2)
+      value: buoyancyObject2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1243,7 +1243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_Name
-      value: buoyancyObject (3)
+      value: buoyancyObject3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec0d1754ba936a04882bbd3e52f6ac75, type: 3}
       propertyPath: m_LocalPosition.x
