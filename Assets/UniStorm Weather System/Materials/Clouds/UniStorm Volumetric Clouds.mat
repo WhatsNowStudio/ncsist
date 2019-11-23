@@ -61,9 +61,9 @@ Material:
     - _uCloudsBackwardScatteringG: -0.2
     - _uCloudsBaseEdgeSoftness: 0.025
     - _uCloudsBaseScale: 1.72
-    - _uCloudsBottom: 741.1985
+    - _uCloudsBottom: 1000
     - _uCloudsBottomSoftness: 1.1
-    - _uCloudsCoverage: 0.53944355
+    - _uCloudsCoverage: 0.502
     - _uCloudsCoverageBias: 0.0175
     - _uCloudsDensity: 0.9
     - _uCloudsDetailScale: 730
