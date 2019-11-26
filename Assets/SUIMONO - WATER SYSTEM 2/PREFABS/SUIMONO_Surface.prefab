@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   systemTime: 0
-  systemLocalTime: 0.9950949
+  systemLocalTime: 2.3897867
   flowSpeed: 0.05
   flowDirection: 230
   useBeaufortScale: 1
@@ -142,7 +142,7 @@ MonoBehaviour:
   aberrationScale: 0
   roughness: 0.025
   roughness2: 0.45
-  reflectTerm: 0
+  reflectTerm: 0.5
   reflectSharpen: 0
   showDepthMask: 0
   showWorldMask: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   useTexNormal3: {fileID: 2800000, guid: fb77700eb10ac344db495df815b29823, type: 3}
   showWaves: 1
   customWaves: 0
-  localTime: 0.09950949
+  localTime: 0.23897867
   beaufortVal: 0.16666667
   showShore: 0
   shorelineHeight: 0.397
@@ -203,14 +203,14 @@ MonoBehaviour:
   shorelineScale: 3.55
   shorelineSpeed: 4
   shorelineNorm: 0
-  showSurface: 0
+  showSurface: 1
   overallBright: 1
   overallTransparency: 1
-  depthAmt: 0.064
-  shallowAmt: 0.057
+  depthAmt: 0.35
+  shallowAmt: 1
   depthColor: {r: 0.16, g: 0.281, b: 0.382, a: 1}
   shallowColor: {r: 0.208, g: 0.373, b: 0.441, a: 0.784}
-  edgeAmt: 0.064
+  edgeAmt: 0.35
   specularColor: {r: 0.063, g: 0.326, b: 0.375, a: 0.161}
   sssColor: {r: 0, g: 0.324, b: 0.015, a: 0.239}
   blendColor: {r: 0.36, g: 1, b: 0.867, a: 0.22}
@@ -237,15 +237,15 @@ MonoBehaviour:
   enableUnderDebris: 1
   underBlurAmount: 1
   underDarkRange: 50
-  setScale: 1
+  setScale: 80000
   currentAngles: {x: 0, y: 0, z: 0}
-  currentPosition: {x: 0, y: 0, z: 0}
+  currentPosition: {x: 0, y: 0, z: -11179.405}
   newPos: {x: 0, y: 0, z: 0}
-  spacer: 0
+  spacer: 64
   setScaleX: 0
-  setScaleZ: 0
+  setScaleZ: -1.467268
   offamt: 0
-  savePos: {x: 0, y: 0}
+  savePos: {x: 0, y: -1.467268}
   recPos: {x: 0, y: 0}
   _suimono_uv: {x: 0, y: 0}
   showSimpleEditor: 0
@@ -455,15 +455,15 @@ MonoBehaviour:
     <data_underDarkRange>(50)
 
 '
-  dir: C:/Work/UnityProject/ncsist/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/
+  dir: C:/_Git/ncsist1116/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES/
   baseDir: SUIMONO - WATER SYSTEM 2/RESOURCES/
   presetSaveName: my custom preset
   presetFile: 
   workData: 
   workData2: 
   materialPath: 
-  oceanUseScale: 0
-  useSc: 0
+  oceanUseScale: 4
+  useSc: 2500
   setSc: {x: 0, y: 0}
   scaleOff: {x: 0, y: 0}
   i: 32
@@ -471,7 +471,7 @@ MonoBehaviour:
   skybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   d: 2
   dn: 2
-  pdir: C:/Work/UnityProject/ncsist/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In
+  pdir: C:/_Git/ncsist1116/Assets/SUIMONO - WATER SYSTEM 2/RESOURCES//SUIMONO_PRESETS_Built-In
     Presets
   f: 26
   px: 13
@@ -612,7 +612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171792}
   m_LocalRotation: {x: -0, y: 0.9238797, z: -0, w: -0.38268322}
-  m_LocalPosition: {x: -227.37029, y: -8.129078, z: -201.17027}
+  m_LocalPosition: {x: 8.429724, y: 3.3709226, z: 8.42973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
