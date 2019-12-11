@@ -24,7 +24,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 83.5
+        x: 51.5
         y: 103
         width: 100
         height: 32
@@ -93,8 +93,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 370.5
-        y: 246
+        x: 259.5
+        y: 173
         width: 100
         height: 32
       isBreakpoint: 0
@@ -299,8 +299,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 58.71875
-        y: 377.21875
+        x: 63.71875
+        y: 292.21875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -386,8 +386,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 360
-        y: 381
+        x: 258
+        y: 284
         width: 100
         height: 32
       isBreakpoint: 0
@@ -473,8 +473,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 99.125
-        y: 237.61719
+        x: 56.125
+        y: 175.61719
         width: 100
         height: 32
       isBreakpoint: 0
@@ -669,7 +669,7 @@ MonoBehaviour:
       categories:
       - 
       variableCategoryIDs: 000000000000000000000000
-    description: 
+    description: "UIClick\u529F\u80FD"
     docUrl: 
     showStateLabel: 0
     maxLoopCount: 0

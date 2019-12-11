@@ -3401,7 +3401,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 010000010101
+        actionIsOpen: 000000000000
         actionStartIndex: 0000000003000000080000000d0000001300000018000000
         actionHashCodes: 71c75a03d9b552026ba59301dfd72a046ba59301dfd72a04
         unityObjectParams: []
@@ -6473,7 +6473,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 010000010101
+        actionIsOpen: 000000000000
         actionStartIndex: 0000000003000000080000000d0000001300000018000000
         actionHashCodes: 71c75a03d9b552026ba59301dfd72a046ba59301dfd72a04
         unityObjectParams: []
@@ -9545,7 +9545,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 010000010101
+        actionIsOpen: 000000000000
         actionStartIndex: 0000000003000000080000000d0000001300000018000000
         actionHashCodes: 71c75a03d9b552026ba59301dfd72a046ba59301dfd72a04
         unityObjectParams: []

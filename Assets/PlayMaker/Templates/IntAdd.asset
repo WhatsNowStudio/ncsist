@@ -24,8 +24,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 58.148438
-        y: 113.5625
+        x: 217.65625
+        y: 111.66406
         width: 100
         height: 32
       isBreakpoint: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 56.921875
-        y: 232.34375
+        x: 55.257812
+        y: 125.734375
         width: 100
         height: 48
       isBreakpoint: 0
@@ -269,8 +269,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 196.10938
-        y: 231.69531
+        x: 52.109375
+        y: 215.69531
         width: 100
         height: 32
       isBreakpoint: 0
@@ -382,8 +382,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 189.41406
-        y: 340.0078
+        x: 52.453125
+        y: 321.6328
         width: 100
         height: 32
       isBreakpoint: 0
@@ -495,8 +495,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 336.47656
-        y: 266.4297
+        x: 192.47656
+        y: 250.42969
         width: 102
         height: 64
       isBreakpoint: 0
@@ -607,8 +607,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 473.92188
-        y: 350.5
+        x: 329.92188
+        y: 334.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -693,8 +693,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 474.9922
-        y: 298.90625
+        x: 330.9922
+        y: 282.90625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -770,8 +770,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 479.03906
-        y: 246.76562
+        x: 335.03906
+        y: 230.76562
         width: 100
         height: 32
       isBreakpoint: 0
@@ -847,8 +847,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 617.9219
-        y: 315.98438
+        x: 473.92188
+        y: 299.98438
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
       categories:
       - 
       variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
-    description: 
+    description: "\u6574\u6578\u9650\u5236\u5668"
     docUrl: 
     showStateLabel: 0
     maxLoopCount: 0

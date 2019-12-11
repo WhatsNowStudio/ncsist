@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: PointToLatitudeLongitude
+  m_Name: UIMapLLConvert
   m_EditorClassIdentifier: 
   category: General
   fsm:
@@ -3071,7 +3071,7 @@ MonoBehaviour:
       categories:
       - 
       variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    description: 
+    description: "2D\u5730\u5716\u4F4D\u7F6E\u21C4\u7D93\u7DEF\u5EA6\u6578\u503C\r"
     docUrl: 
     showStateLabel: 0
     maxLoopCount: 0
