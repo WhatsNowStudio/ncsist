@@ -738,7 +738,7 @@ MonoBehaviour:
       - useVariable: 1
         name: String/Select
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: 
       vector2Variables: []

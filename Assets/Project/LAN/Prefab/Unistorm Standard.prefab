@@ -861,7 +861,7 @@ MonoBehaviour:
   AllWeatherTypes:
   - {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
   - {fileID: 11400000, guid: ec37544ca0d8b3640b920a1f69c80705, type: 2}
-  CurrentWeatherType: {fileID: 11400000, guid: b1b04f0270cfa784588fdc5818097ad3, type: 2}
+  CurrentWeatherType: {fileID: 11400000, guid: 865815ce607d94c4cb41162c44555e7c, type: 2}
   NextWeatherType: {fileID: 0}
   ByPassCoverageTransition: 0
   m_PrecipitationOdds: 50

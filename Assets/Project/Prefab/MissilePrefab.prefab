@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1038197332046986411}
   - component: {fileID: 1038197332046986413}
-  - component: {fileID: 1038197332046986412}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -75,46 +74,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &1038197332046986412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038197332046986410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab00a14ace35229489189437f4636a17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showScreenMask: 0
-  doTransition: 0
-  cancelTransition: 0
-  useUnderSurfaceView: 0
-  distanceFog: 1
-  useRadialDistance: 1
-  heightFog: 0
-  height: 1
-  heightDensity: 2
-  startDistance: 0
-  fogStart: 0
-  fogEnd: 20
-  refractAmt: 0.005
-  refractSpd: 1.5
-  refractScale: 0.5
-  lightFactor: 1
-  underwaterColor: {r: 0, g: 0, b: 0, a: 0}
-  dropsTime: 2
-  wipeTime: 1
-  iterations: 2
-  blurSpread: 1
-  darkRange: 40
-  heightDepth: 1
-  hFac: 0
-  distortTex: {fileID: 0}
-  mask2Tex: {fileID: 0}
-  fogShader: {fileID: 0}
-  fogMaterial: {fileID: 0}
 --- !u!1 &1038197332663178195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,8 +4830,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 66
-        y: 116
+        x: 54
+        y: 114
         width: 100
         height: 16
       isBreakpoint: 0
@@ -4933,7 +4892,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 229
-        y: 107
+        y: 121
         width: 100
         height: 32
       isBreakpoint: 0
@@ -4955,16 +4914,20 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.FloatOperator
         - HutongGames.PlayMaker.Actions.CreateRenderTexture
         - HutongGames.PlayMaker.Actions.SetCameraTargetTexture
+        - HutongGames.PlayMaker.Actions.SetTag
+        - HutongGames.PlayMaker.Actions.SetCameraCullingMask
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0001000001
-        actionStartIndex: 000000000f0000001c0000002100000027000000
-        actionHashCodes: d9ade60315a3be050cdb04053aeb4905c7317e04
+        - 
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 00000000000101
+        actionStartIndex: 000000000f0000001c0000002100000027000000290000002b000000
+        actionHashCodes: d9ade60315a3be050cdb04053aeb4905c7317e049bd6f801fca19305
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -4980,6 +4943,22 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1038197332046986410}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1038197332046986410}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -5037,6 +5016,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: "\u5C0B\u6A19\u6642\u95932"
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -5236,6 +5221,60 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 24
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 2
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 8
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 10
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 11
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 12
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 13
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 9
         fsmBoolParams:
         - useVariable: 1
           name: 
@@ -5243,6 +5282,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmVector2Params:
         - useVariable: 1
           name: 
@@ -5286,14 +5331,15 @@ MonoBehaviour:
         stringParams:
         - 
         - 
-        byteData: 0200000000
-        arrayParamSizes: 0400000004000000
+        byteData: 020000000000
+        arrayParamSizes: 040000000400000009000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
+        - HutongGames.PlayMaker.FsmInt
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000001200000012000000120000000c0000002700000027000000270000002700000017000000170000000f0000000f000000070000000f000000010000001000000010000000100000002a0000002a000000210000001400000021000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000001200000012000000120000000c0000002700000027000000270000002700000017000000170000000f0000000f000000070000000f000000010000001000000010000000100000002a0000002a0000002100000014000000210000001400000012000000140000000c0000001000000010000000100000001000000010000000100000001000000010000000100000001100000001000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -5336,15 +5382,30 @@ MonoBehaviour:
         - renderTexture
         - gameObject
         - renderTexture
-        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000200000000000000030000000400000005000000060000000100000000000000010000000200000003000000000000000100000001000000020000000000000003000000040000000100000002000000030000000000000001000000030000000000000004000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        - gameObject
+        - tag
+        - gameObject
+        - cullingMask
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - invertMask
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000200000000000000030000000400000005000000060000000100000000000000010000000200000003000000000000000100000001000000020000000000000003000000040000000100000002000000030000000000000001000000030000000000000004000000010000000700000002000000020000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000100000005000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u7B49\u5F85\u767C\u5C04"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 227
-        y: 170
+        x: 225
+        y: 199
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5416,7 +5477,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 226
-        y: 220
+        y: 268
         width: 100
         height: 48
       isBreakpoint: 0
@@ -5701,7 +5762,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 231
-        y: 295
+        y: 343
         width: 100
         height: 48
       isBreakpoint: 0
@@ -5994,7 +6055,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 234
-        y: 391
+        y: 439
         width: 100
         height: 32
       isBreakpoint: 0
@@ -6205,7 +6266,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 53
-        y: 292
+        y: 340
         width: 100
         height: 16
       isBreakpoint: 0

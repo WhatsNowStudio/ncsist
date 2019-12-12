@@ -189,3 +189,5 @@ MonoBehaviour:
   - BackToSetting
   - Explosion
   - MissileHit
+  - OpenCamera
+  - GamingProcessDone
